@@ -1,0 +1,39 @@
+
+body{
+    background-color: #4158D0;
+    background: 
+    linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.lists{
+    width: 50%;
+}
+.layout{
+    width: 50%;
+}
+h1{
+    color: white;
+}
+
+@media (max-width: 992px) { 
+    .lists{
+        width: 80%;
+    }
+    .layout{
+        width: 80%;
+    }
+ }
